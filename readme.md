@@ -14,24 +14,25 @@ Before running this program, ensure you have the **Java Development Kit (JDK)** 
 Follow these instructions to clone, compile, and run the program locally.
 
 ### 1. Save the Code
-Ensure the file is saved exactly as `HelloWorld.java`. Java is case-sensitive, and the file name must match the public class name.
+Ensure the file is saved exactly as `sample.java`. Java is case-sensitive, and the file name must match the public class name.
 
 ### 2. Compile the Program
-Open your terminal or command prompt, navigate to the directory containing `HelloWorld.java`, and run the Java compiler:
+Open your terminal or command prompt, navigate to the directory containing `sample.java`, and run the Java compiler:
 
 ```bash
-javac HelloWorld.java
+javac sample.java
 ```
-This action generates a `HelloWorld.class` file containing bytecode.
+This action generates a `sample.class` file containing bytecode.
 
 ### 3. Run the Program
 Execute the compiled bytecode using the Java Virtual Machine (JVM):
 
 ```bash
-java HelloWorld
+java sample
 ```
 
 **Expected Output:**
 ```text
 Hello, World!
+Added feature
 ```
